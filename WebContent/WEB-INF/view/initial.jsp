@@ -5,8 +5,8 @@
 <title>Input Form</title>
 </head>
 <body>
-	<form action="process" method="get">
-		<input type="text" name="info" placeholder="what's your age" /> <input
+	<form action="processVer3" method="get">
+		<input type="text" name="info" placeholder="what's your name" /> <input
 			type="submit" />
 	</form>
 </body>
