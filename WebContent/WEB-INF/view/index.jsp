@@ -7,8 +7,7 @@
 <body>
 <h1>SpringMVC - Index Page</h1>
 <a href="hello/initial">initialForm</a><br>
-form:form
-<a href="hello/process"></a>
+<a href="teacher/show">Teacher Form</a><br>
 <a href="hello/testSpring">TestSpring</a>
 </body>
 </html>
