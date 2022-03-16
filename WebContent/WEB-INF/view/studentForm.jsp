@@ -16,7 +16,8 @@
 <i>Fill out the form. 星號代表必填</i>
 <br>
 	<form:form action="processForm" modelAttribute="student">
-		First name:<form:input path="firstName"/><br>
+		First name:<form:input path="firstName"/>
+		<form:errors path="firstName" cssClass="error"></form:errors><br>
 		Last name(*):<form:input path="lastName"/>
 		<form:errors path="lastName" cssClass="error"></form:errors>
 		<br>

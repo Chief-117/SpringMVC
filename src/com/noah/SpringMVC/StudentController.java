@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentController {
 	// add ad initbinder to convert trim input
 	// remove whitespace
-	@InitBinder
+	@InitBinder // handle the whitespace
 	public void initBinder(WebDataBinder webDataBinder) {
 		StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
 		webDataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
