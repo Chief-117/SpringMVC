@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
     pageEncoding="BIG5"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,5 +15,12 @@ Last Name:${teacher.lastName}
 Country:${teacher.country}
 <br>
 FavoriteFood:${teacher.favoriteFood}
+<br>
+System:
+<ul>
+	<c:forEach var="temp" items="${teacher.system}">
+	<li>${temp}</li>
+	</c:forEach>
+</ul>
 </body>
 </html>

@@ -15,6 +15,8 @@ public class Teacher {
 	
 	private String favoriteFood;
 	
+	private String[] system;
+	
 	public String getFavoriteFood() {
 		return favoriteFood;
 	}
@@ -61,4 +63,12 @@ public class Teacher {
 		return countryOption;
 	}
 
+	public String[] getSystem() {
+		return system;
+	}
+
+	public void setSystem(String[] system) {
+		this.system = system;
+	}
+	
 }

@@ -17,10 +17,17 @@
 	<form:select path="country">
 		<form:options items="${countryOption2}"/>
 	</form:select>
+	<br>
+	喜歡的食物:
 	<form:radiobutton path="favoriteFood" value="西瓜"/>西瓜
 	<form:radiobutton path="favoriteFood" value="mango"/>芒果
 	<form:radiobutton path="favoriteFood" value="peach"/>水蜜桃
 	<form:radiobutton path="favoriteFood" value="grape"/>葡萄
+	<br>
+	作業系統:
+	Windows<form:checkbox path="system" value="Windows"/>
+	Linux<form:checkbox path="system" value="Linux"/>
+	MS Window<form:checkbox path="system" value="MS Window"/>
 		<input type="submit" value="Submit" />
 	</form:form>
 </body>
