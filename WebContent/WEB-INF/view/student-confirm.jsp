@@ -7,6 +7,12 @@
 <title>Student Confirmation</title>
 </head>
 <body>
-Student's Name : ${student.firstName} ${student.lastName}  
+Student's Name : ${student.firstName} ${student.lastName}
+<br>
+Free Games : ${student.freeGames} 
+<br>
+postalCode : ${student.postalCode}
+<br>
+courseCode : ${student.courseCode}
 </body>
 </html>
